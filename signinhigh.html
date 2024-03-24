@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: black;
+            background-image: url('images/happyreading2.jpg');
+            background-size: cover; /* Adjust as needed */
+            background-position: center; /* Adjust as needed */
+            background-repeat: no-repeat;
+        }
+        header {
+            background-color: ;
+            color: black;
+            padding: 0.4em;
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+    <img src="images/100percentlogo.png" alt="logo">
+    <h1>Welcome to the family!</h1>
+  </header>
+    <form action="submit_registration.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" id="confirm_password" name="confirm_password" required>
+
+        <button type="submit" autofocus>Register</button>
+
+        <button type="button"
+        onclick="redirectToPage()">Home Page</button>
+
+    <script>
+        function redirectToPage() {
+            // Replace 'destination.html' with the URL of the page you want to redirect to
+            window.location.href = 'mainpage1.html';
+        }
+    </script>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+
+    body {
+      font-family: 'Arial', sans-serif;
+      font-size:medium;
+      text-align:;
+      margin:0px;
+      padding:0px;
+      background-color: #f4f4f4;
+      color:;
+      background:linear-gradient(90deg,rgb(139,61,255)0%,rgb(217,0,255)40%,rgb(217,0,255)60%,rgb(139,61,255)100%);
+      /*background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;*/
+    }
+
+    header {
+      background-color:;
+      color:;
+      padding:1vw;
+      border:;
+      display:flex;
+      justify-content:space-between;
+    }
+
+nav a {
+      color: #000;
+      background-color:;
+      text-decoration: none;
+      font-size:1.25em;
+    }
+#nav{
+    border:;
+    width:600px;
+    height:50px;
+    display:flex;
+    justify-content:space-between;
+
+}
+#logo{
+    width: 7vw;
+    height: 7vw;
+    border:;
+    margin:-1%;
+}
+h2, p{
+    font-family:sans-serif;
+    font-weight:bold;
+    color:black;
+    text-align:center;
+    margin:0px auto;
+    border:;
+}
+h2{
+    letter-spacing:10px;
+}
+p{
+    font-style:oblique;
+}
+#registration-form{
+    width:50%;
+    margin:0px auto;
+    border:;
+
+}
+label{
+    display:flex;
+    margin:10px auto;
+}
+input{
+    width:90%;
+    background-color:#fff;
+    border:none;
+}
+select{
+    width:40%
+    background-color:white;
+    border:none;
+}
+fieldset{
+    border:none;
+}
+
+
+
+
+
+    button {
+            background-color:#8700ff;
+            font-family: 'Arial', sans-serif;
+            font-size:1rem;
+            color: white;
+            padding: 2% 40%;
+            margin-left:30px;
+            border:none ;
+            border-radius:;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a0ff;
+        }
+
+    footer {
+      /*background-color: #8700ff;*/
+      color: #381dae;
+      text-align: center;
+      padding: 0.5em;
+      margin-bottom:0em;
+    }
