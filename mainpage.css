@@ -19,7 +19,7 @@
       padding:1vw;
       border:;
       display:flex;
-      justify-content:space-between;
+      justify-content:flex-end;
     }
 
 nav a {
@@ -37,10 +37,13 @@ nav a {
 
 }
 #logo{
-    width: 7vw;
-    height: 7vw;
-    border:;
+    width: 20%;
+    height: 30%;
+   /* border:1px solid black;*/
     margin:-1%;
+    position:absolute;
+    top:-5%;
+    left:-3%;
 }
 h2, p{
     font-family:sans-serif;
